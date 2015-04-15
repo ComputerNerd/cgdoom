@@ -1,0 +1,5 @@
+Most recent changes are at the top
+
+Fixed a crash by using getSecondaryVramAddress() instead of a hardcoded address.
+Update header locations for libfxcg
+New makefile
