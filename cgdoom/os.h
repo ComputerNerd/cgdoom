@@ -2,7 +2,7 @@
 
 
 //CGDOOM 
-#define SYSTEM_STACK_SAFE (90*1024)
+#define SYSTEM_STACK_SAFE (256*1024)
 #define USER_STACK_SAFE (40*1024)
 
 //memory mapping:

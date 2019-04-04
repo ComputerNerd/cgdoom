@@ -16,7 +16,7 @@ all: $(ADDIN)
  
  
 $(ADDIN): $(BIN)
-	$(MKG3A) -n :Doom -i uns:CGDOOM_UNSELECTED.BMP -i sel:CGDOOM_SELECTED.BMP $< $@
+	$(MKG3A) -n :Doom -i uns:CGDOOM_UNSELECTED.png -i sel:CGDOOM_SELECTED.png $< $@
  
 .s.o:
 	$(CC) -c $(CFLAGS) $< -o $@
